@@ -130,10 +130,10 @@ img {
  ************************************************/
 
 /* from 768px to 1160px - Bonus */
-@media screen and (min-width: 768px) and (max-width: 1160px) {
+@media screen and (min-width: 768px) and (max-width: 1140px) {                                                                                                                  
     .container {
-        max-width: 1140px;
-        height: auto;
+        width: 100%;
+        
     }
 }
 
@@ -141,18 +141,8 @@ img {
 /* from 0px / 480px to 768px - Tablet */
 @media screen and (max-width: 768px) {
 
-
-    .row {
-        gap: 1rem;
-    }
-
     .container {
-        max-width: 700px;
-        padding: 0;
-    }
-
-    .col {
-        padding: 0;
+        width: 100%;
     }
 
 }
@@ -166,12 +156,6 @@ img {
         flex-direction: column;
         align-items: center;
         gap: 3rem;
-    }
-
-
-    .container {
-        max-width: 300px;
-        padding: 0;
     }
 
     .lessons .col,
